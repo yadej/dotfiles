@@ -42,3 +42,6 @@ vim.keymap.set("n", "<Leader>h", ":noh<CR>", { silent = true })
 
 -- Fixes pasting after visual selection.
 vim.keymap.set("v", "p", '"_dP')
+
+-- Shuffle color
+vim.keymap.set('n', '<Leader>b', ':Colorbox shuffle<CR>', { noremap = true, silent = true })

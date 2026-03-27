@@ -59,3 +59,6 @@ vim.opt.linebreak = true
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 15
 vim.opt.sidescroll = 5
+
+-- Set cursors
+vim.o.guicursor= 'a:blinkon0,n-v-sm:block-Cursor/lCursor,i-ci-c-ve:ver25-Cursor,r-cr-o:hor15-Cursor,t:block-TermCursor'
